@@ -29,6 +29,10 @@ export default function App() {
           <img src="/2以品质铸市场.jpg" className="w-full md:w-1/2 h-auto object-contain block" alt="以品质铸市场" />
         </div>
 
+        {/* ========== 第 3 部分：品牌墙 ========== */}
+        {/* 已按要求移动到公司产品上方 */}
+        <img src="/3品牌墙.jpg" className="w-full h-auto object-contain block bg-white" alt="品牌墙" />
+
         {/* ========== 特别展区：公司产品 ========== */}
         <div className="bg-white py-8 px-4 w-full">
           <div className="text-center mb-6">
@@ -43,9 +47,6 @@ export default function App() {
              <img src="/包装3.jpg" className="w-full h-auto rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 object-cover aspect-[2/3] bg-white border border-slate-100 p-2" alt="泓一丰金鲳鱼料" />
           </div>
         </div>
-
-        {/* ========== 第 3 部分：品牌墙 ========== */}
-        <img src="/3品牌墙.jpg" className="w-full h-auto object-contain block bg-white" alt="品牌墙" />
 
         {/* ========== 第 4-5 部分：愿景与使命 ========== */}
         <div className="flex flex-col md:flex-row w-full bg-white">
