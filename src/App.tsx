@@ -12,25 +12,24 @@ export default function App() {
       <main className="w-full max-w-[800px] mx-auto bg-white shadow-2xl flex flex-col overflow-hidden relative">
         
         {/* ========== 公司名称标题栏 ========== */}
-        <header className="w-full py-8 md:py-12 bg-white border-b-4 border-[#2a7df4]/10">
+        <header className="w-full py-10 md:py-16 bg-white border-b-4 border-[#2a7df4]/10">
           <div className="text-center px-4">
-            <h1 className="text-3xl md:text-5xl lg:text-6xl font-black text-[#2a7df4] tracking-[0.15em] drop-shadow-sm">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-[#2a7df4] tracking-[0.12em] drop-shadow-sm leading-tight">
               广东泓一生物科技有限公司
             </h1>
-            <p className="mt-2 text-sm md:text-base font-bold text-slate-400 tracking-[0.3em] uppercase">
+            <p className="mt-4 text-sm md:text-lg font-bold text-slate-400 tracking-[0.3em] uppercase">
               Guangdong Hongyi Biotechnology Co., Ltd.
             </p>
           </div>
         </header>
 
-        {/* ========== 第 1-2 部分：标题块 ========== */}
-        <div className="flex flex-col md:flex-row w-full bg-white">
-          <img src="/1以诚信铸品牌.jpg" className="w-full md:w-1/2 h-auto object-contain block" alt="以诚信铸品牌" />
-          <img src="/2以品质铸市场.jpg" className="w-full md:w-1/2 h-auto object-contain block" alt="以品质铸市场" />
+        {/* ========== 第 1-2 部分：标题块 (缩小排版) ========== */}
+        <div className="flex flex-col md:flex-row w-full bg-white px-2 sm:px-8 md:px-12 py-4 gap-2 md:gap-4 justify-center items-center">
+          <img src="/1以诚信铸品牌.jpg" className="w-full md:w-[45%] h-auto object-contain block max-w-[400px]" alt="以诚信铸品牌" />
+          <img src="/2以品质铸市场.jpg" className="w-full md:w-[45%] h-auto object-contain block max-w-[400px]" alt="以品质铸市场" />
         </div>
 
         {/* ========== 第 3 部分：品牌墙 ========== */}
-        {/* 已按要求移动到公司产品上方 */}
         <img src="/3品牌墙.jpg" className="w-full h-auto object-contain block bg-white" alt="品牌墙" />
 
         {/* ========== 特别展区：公司产品 ========== */}
