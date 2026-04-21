@@ -1,7 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Phone } from 'lucide-react';
 
 export default function App() {
+  useEffect(() => {
+    const data = JSON.stringify({
+      screen: `${window.screen.width}x${window.screen.height}`,
+      lang: navigator.language,
+    });
+    navigator.sendBeacon('/track', new Blob([data], { type: 'application/json' }));
+  }, []);
+
   return (
     <div className="min-h-screen bg-[#f3f4f6] flex flex-col font-sans pb-16">
       
