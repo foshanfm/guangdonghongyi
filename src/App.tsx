@@ -11,6 +11,18 @@ export default function App() {
       */}
       <main className="w-full max-w-[800px] mx-auto bg-white shadow-2xl flex flex-col overflow-hidden relative">
         
+        {/* ========== 公司名称标题栏 ========== */}
+        <header className="w-full py-8 md:py-12 bg-white border-b-4 border-[#2a7df4]/10">
+          <div className="text-center px-4">
+            <h1 className="text-3xl md:text-5xl lg:text-6xl font-black text-[#2a7df4] tracking-[0.15em] drop-shadow-sm">
+              广东泓一生物科技有限公司
+            </h1>
+            <p className="mt-2 text-sm md:text-base font-bold text-slate-400 tracking-[0.3em] uppercase">
+              Guangdong Hongyi Biotechnology Co., Ltd.
+            </p>
+          </div>
+        </header>
+
         {/* ========== 第 1-2 部分：标题块 ========== */}
         <div className="flex flex-col md:flex-row w-full bg-white">
           <img src="/1以诚信铸品牌.jpg" className="w-full md:w-1/2 h-auto object-contain block" alt="以诚信铸品牌" />
@@ -36,7 +48,6 @@ export default function App() {
         <img src="/3品牌墙.jpg" className="w-full h-auto object-contain block bg-white" alt="品牌墙" />
 
         {/* ========== 第 4-5 部分：愿景与使命 ========== */}
-        {/* 已按要求移动到价值观上方 */}
         <div className="flex flex-col md:flex-row w-full bg-white">
           <img src="/4愿景.jpg" className="w-full md:w-1/2 h-auto object-contain block" alt="愿景" />
           <img src="/5使命.jpg" className="w-full md:w-1/2 h-auto object-contain block" alt="使命" />
