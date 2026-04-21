@@ -16,13 +16,13 @@ export default function App() {
           <div className="text-center px-4">
             <h1
               className="font-black text-[#2a7df4] leading-tight whitespace-nowrap"
-              style={{ fontSize: 'min(10vw, 5.2rem)' }}
+              style={{ fontSize: 'clamp(1.2rem, 4.8vw, 4.2rem)' }}
             >
               广东泓一生物科技有限公司
             </h1>
             <p
               className="mt-2 font-bold text-slate-400 uppercase tracking-widest whitespace-nowrap opacity-80"
-              style={{ fontSize: 'min(3vw, 1.1rem)' }}
+              style={{ fontSize: 'clamp(0.5rem, 1.8vw, 1rem)' }}
             >
               Guangdong Hongyi Biotechnology Co., Ltd.
             </p>
